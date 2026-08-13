@@ -15,26 +15,27 @@ programa
 		leia(valorC)
 		escreva("\n")
 
-		delta = ((valorB * valorB) - 4) * valorA * valorC
+		delta = (valorB * valorB) - 4 * (valorA * valorC)
 			
 		escreva("//////////////////////////////// \n")
 
-		se(delta <0)
+		se(delta < 0)
 		{
-			escreva("o delta está com valor negativo, não tem com ofazer raiz negativa")
+			escreva("o delta está com valor negativo, não tem como fazer raiz negativa\n")
 		}
 
 		
-		x1 = (-valorB - mat.raiz(delta, 2.0)) / 2 * (valorA)
+		x1 = (-valorB - mat.raiz(delta, 2.0)) / (2 * (valorA))
 
-		x2 = (-valorB + mat.raiz(delta, 2.0)) / 2 * (valorA)
+		x2 = (-valorB + mat.raiz(delta, 2.0)) / (2 * (valorA))
 
+		se(delta >= 0)
+		{
+
+		escreva("O valor de A é: ", valorA, "\n", "O de B: ", valorB, "\n", "De C: ", valorC, "\n", "E o de delta: ", delta, "\n")
+
+		}
 		escreva("O valor de x1 é ", x1 , "\nE o valor de x2 é ", x2 ,"\n")
-
-		escreva("O valor de A é: ", valorA, "\n", "O de B: ", valorB, "\n", "De C: ", valorC, "\n", "E o de delta: ", delta)
-
-	}
-}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
