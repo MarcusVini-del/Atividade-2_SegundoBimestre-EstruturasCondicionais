@@ -3,7 +3,7 @@ proposições lógicas abaixo:
 
 a. (verdadeiro) 2 * 4 == 24/3
 
-b. (verdadeiro) (15 % 4) < (19 % 6)
+b. (falso) (15 % 4) < (19 % 6)
 
 c. (verdadeiro) nao(2 < 5) != (8 == 8)
 
