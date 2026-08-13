@@ -9,7 +9,7 @@ programa
 		escreva("digite uma letra\n")
 		leia(vogal)
 
-		se (vogal == "a" ou vogal == "e" ou vogal == "i" ou vogal == "o" ou vogal == "u")
+		se (vogal == "a" ou vogal == "e" ou vogal == "i" ou vogal == "o" ou vogal == "u" ou vogal == "A" ou vogal == "E" ou vogal == "I" ou vogal == "O" ou vogal == "U")
 		{
 			escreva("essa letra é uma vogal")
 		}
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 52; 
+ * @POSICAO-CURSOR = 372; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
